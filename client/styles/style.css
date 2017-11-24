@@ -1,0 +1,93 @@
+.ui.segment{
+  margin-left: 20%;
+  margin-right:10%;
+  margin-top: 2%;
+  background-color:#31384f;
+  border-color: #e78c6f;
+  border-width:thick;
+  width:60%;
+}
+h1 {
+  color:#fce9dd;
+  text-align: center;
+  font-family: 'sitka Banner';
+  font-size:24pt;
+}
+
+/*.ui.form{
+  width:86%;
+  margin-left:7.5%;
+}*/
+.aaa{
+  background-color: #333f50;
+}
+.ui.form .field .ui.input input, .ui.form .fields .field .ui.input input {
+    border-color:#fce9dd;
+    font-size:12pt;
+    font-family: 'Poor Richard';
+    color:#fce9dd;
+    background-color: #333f50;
+}
+.ui.form .field>label{
+  color:#fbe5d6;
+  font-size:14pt;
+  font-family: 'Poor Richard';
+}
+.ui.grid>.column:not(.row),.ui.grid>.column:not(.row)>label,
+{
+  color:#fbe5d6;
+  font-size:14pt;
+  font-family: 'Poor Richard';
+  background-color:#333f50;
+}
+.loginlabel{
+  color:#fbe5d6;
+  font-size:14pt;
+  font-family: 'Poor Richard';
+}
+.ui.form input[type=text],.ui.form input[type=number]{
+    /*background-color:#333f50;*/
+  font-size:12pt;
+  font-family: 'Poor Richard';
+  color:#fce9dd;
+  border-color:#fce9dd;
+
+}
+.ui.form .field>input{
+  font-size:12pt;
+  border-color:#fce9dd;
+    /*background-color:#333f50;*/
+  font-family: 'Poor Richard';
+  color:#fce9dd;
+  background-color: #333f50;
+}
+.ui.selection.dropdown{
+  color:#fbe5d6;
+  font-size:12pt;
+  border-color:#fce9dd;
+  min-width: 8em;
+    /*background-color:#333f50;*/
+  font-family: 'Poor Richard';
+}
+.ui.checkbox label, .ui.checkbox+label {
+    color: #fbe5d6;
+    font-size:14pt;
+    background-color:#333f50;
+    font-family: 'Poor Richard';
+}
+.ui.button{
+  background: #e78c6f;
+}
+.ui.button:hover
+{background-color: #d66b22}
+
+p{
+  font-family: 'Poor Richard';
+  color:#fbe5d6;
+  font-size:14pt;
+}
+
+body{
+  background-image: url('../assets/images/bimg.png');
+
+}
